@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "@vitepress-demo-preview/component": "^2.1.0",
+    "@vitepress-demo-preview/plugin": "^1.1.6",
+    "element-plus": "^2.2.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "unplugin-auto-import": "^0.12.1",
+    "unplugin-vue-components": "^0.22.12",
+    "unplugin-vue-macros": "^0.11.2",
+    "vite": "^3.2.4",
+    "vitepress": "1.0.0-alpha.45"
+  }
+}
